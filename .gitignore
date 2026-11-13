@@ -9,3 +9,9 @@ data/expanded_memory_67turns_fixed16/README.md
 .\data\expanded_memory_67turns_fixed16\results\?????.md
 .\experiment_archives\pilot_17turns\README.md
 .\fix_run_table.py
+
+# Local working materials and Word lock files
+/local_working_materials/
+~$*.docx
+
+/A-MEM_Recording_Script*.docx
