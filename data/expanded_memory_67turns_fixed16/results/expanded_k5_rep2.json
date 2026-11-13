@@ -1,0 +1,1002 @@
+{
+  "model": "deepseek-chat",
+  "dataset": "C:\\Users\\Collins\\Python\\FTEC5660\\ind_proj_2\\ftec5660-project2\\.\\data\\expanded_memory_67turns_fixed16\\locomo_conv26_d2_d17_d18_fixed16.json",
+  "memory_layer": "robust",
+  "total_questions": 16,
+  "category_distribution": {
+    "1": 1,
+    "2": 2,
+    "4": 8,
+    "5": 5
+  },
+  "aggregate_metrics": {
+    "overall": {
+      "exact_match": {
+        "mean": 0.4375,
+        "std": 0.51234753829798,
+        "median": 0.0,
+        "min": 0,
+        "max": 1,
+        "count": 16
+      },
+      "f1": {
+        "mean": 0.6322352216748769,
+        "std": 0.42147813070220846,
+        "median": 0.8078817733990147,
+        "min": 0.0,
+        "max": 1.0,
+        "count": 16
+      },
+      "rouge1_f": {
+        "mean": 0.6368055555555556,
+        "std": 0.42361794165713423,
+        "median": 0.8444444444444446,
+        "min": 0.0,
+        "max": 1.0,
+        "count": 16
+      },
+      "rouge2_f": {
+        "mean": 0.557224025974026,
+        "std": 0.4494345863475668,
+        "median": 0.6071428571428572,
+        "min": 0.0,
+        "max": 1.0,
+        "count": 16
+      },
+      "rougeL_f": {
+        "mean": 0.6315972222222223,
+        "std": 0.42591812593502054,
+        "median": 0.8444444444444446,
+        "min": 0.0,
+        "max": 1.0,
+        "count": 16
+      },
+      "bleu1": {
+        "mean": 0.6098095170989135,
+        "std": 0.42333602244657387,
+        "median": 0.7297833263337922,
+        "min": 0,
+        "max": 1.0,
+        "count": 16
+      },
+      "bleu2": {
+        "mean": 0.5645798048509187,
+        "std": 0.4357214300463949,
+        "median": 0.5720869558435474,
+        "min": 0,
+        "max": 1.0,
+        "count": 16
+      },
+      "bleu3": {
+        "mean": 0.46978231316402247,
+        "std": 0.4102720178245652,
+        "median": 0.41694619355544105,
+        "min": 0,
+        "max": 1.0,
+        "count": 16
+      },
+      "bleu4": {
+        "mean": 0.4354887881068339,
+        "std": 0.41873235852382773,
+        "median": 0.30735117780891014,
+        "min": 0,
+        "max": 1.0,
+        "count": 16
+      },
+      "bert_precision": {
+        "mean": 0.9475090615451336,
+        "std": 0.06078374261397921,
+        "median": 0.9729760885238647,
+        "min": 0.8202089667320251,
+        "max": 1.0,
+        "count": 16
+      },
+      "bert_recall": {
+        "mean": 0.943469911813736,
+        "std": 0.06864003352492903,
+        "median": 0.9738110601902008,
+        "min": 0.8079301118850708,
+        "max": 1.0,
+        "count": 16
+      },
+      "bert_f1": {
+        "mean": 0.9453752599656582,
+        "std": 0.06415224483230143,
+        "median": 0.9733581840991974,
+        "min": 0.8140232563018799,
+        "max": 1.0,
+        "count": 16
+      },
+      "meteor": {
+        "mean": 0.6065584104570669,
+        "std": 0.4198245394825107,
+        "median": 0.7589516586565357,
+        "min": 0.0,
+        "max": 0.996,
+        "count": 16
+      },
+      "sbert_similarity": {
+        "mean": 0.7526967460289598,
+        "std": 0.3095819171328824,
+        "median": 0.8917779326438904,
+        "min": 0.08069588243961334,
+        "max": 1.0,
+        "count": 16
+      },
+      "adversarial_correct": {
+        "mean": 1,
+        "std": 0.0,
+        "median": 1,
+        "min": 1,
+        "max": 1,
+        "count": 5
+      }
+    },
+    "category_1": {
+      "exact_match": {
+        "mean": 0,
+        "std": 0.0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "count": 1
+      },
+      "f1": {
+        "mean": 0.5,
+        "std": 0.0,
+        "median": 0.5,
+        "min": 0.5,
+        "max": 0.5,
+        "count": 1
+      },
+      "rouge1_f": {
+        "mean": 0.5,
+        "std": 0.0,
+        "median": 0.5,
+        "min": 0.5,
+        "max": 0.5,
+        "count": 1
+      },
+      "rouge2_f": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "count": 1
+      },
+      "rougeL_f": {
+        "mean": 0.5,
+        "std": 0.0,
+        "median": 0.5,
+        "min": 0.5,
+        "max": 0.5,
+        "count": 1
+      },
+      "bleu1": {
+        "mean": 0.5,
+        "std": 0.0,
+        "median": 0.5,
+        "min": 0.5,
+        "max": 0.5,
+        "count": 1
+      },
+      "bleu2": {
+        "mean": 0.223606797749979,
+        "std": 0.0,
+        "median": 0.223606797749979,
+        "min": 0.223606797749979,
+        "max": 0.223606797749979,
+        "count": 1
+      },
+      "bleu3": {
+        "mean": 0.1740444189610778,
+        "std": 0.0,
+        "median": 0.1740444189610778,
+        "min": 0.1740444189610778,
+        "max": 0.1740444189610778,
+        "count": 1
+      },
+      "bleu4": {
+        "mean": 0.1495348781221221,
+        "std": 0.0,
+        "median": 0.1495348781221221,
+        "min": 0.1495348781221221,
+        "max": 0.1495348781221221,
+        "count": 1
+      },
+      "bert_precision": {
+        "mean": 0.9270780086517334,
+        "std": 0.0,
+        "median": 0.9270780086517334,
+        "min": 0.9270780086517334,
+        "max": 0.9270780086517334,
+        "count": 1
+      },
+      "bert_recall": {
+        "mean": 0.9268651008605957,
+        "std": 0.0,
+        "median": 0.9268651008605957,
+        "min": 0.9268651008605957,
+        "max": 0.9268651008605957,
+        "count": 1
+      },
+      "bert_f1": {
+        "mean": 0.9269714951515198,
+        "std": 0.0,
+        "median": 0.9269714951515198,
+        "min": 0.9269714951515198,
+        "max": 0.9269714951515198,
+        "count": 1
+      },
+      "meteor": {
+        "mean": 0.25,
+        "std": 0.0,
+        "median": 0.25,
+        "min": 0.25,
+        "max": 0.25,
+        "count": 1
+      },
+      "sbert_similarity": {
+        "mean": 0.7453683018684387,
+        "std": 0.0,
+        "median": 0.7453683018684387,
+        "min": 0.7453683018684387,
+        "max": 0.7453683018684387,
+        "count": 1
+      }
+    },
+    "category_2": {
+      "exact_match": {
+        "mean": 0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0,
+        "max": 0,
+        "count": 2
+      },
+      "f1": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "count": 2
+      },
+      "rouge1_f": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "count": 2
+      },
+      "rouge2_f": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "count": 2
+      },
+      "rougeL_f": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "count": 2
+      },
+      "bleu1": {
+        "mean": 0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0,
+        "max": 0,
+        "count": 2
+      },
+      "bleu2": {
+        "mean": 0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0,
+        "max": 0,
+        "count": 2
+      },
+      "bleu3": {
+        "mean": 0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0,
+        "max": 0,
+        "count": 2
+      },
+      "bleu4": {
+        "mean": 0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0,
+        "max": 0,
+        "count": 2
+      },
+      "bert_precision": {
+        "mean": 0.8904107809066772,
+        "std": 0.026542230730826583,
+        "median": 0.8904107809066772,
+        "min": 0.8716425895690918,
+        "max": 0.9091789722442627,
+        "count": 2
+      },
+      "bert_recall": {
+        "mean": 0.850262463092804,
+        "std": 0.016404986433289328,
+        "median": 0.850262463092804,
+        "min": 0.8386623859405518,
+        "max": 0.8618625402450562,
+        "count": 2
+      },
+      "bert_f1": {
+        "mean": 0.8696115911006927,
+        "std": 0.004082301599916685,
+        "median": 0.8696115911006927,
+        "min": 0.866724967956543,
+        "max": 0.8724982142448425,
+        "count": 2
+      },
+      "meteor": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "count": 2
+      },
+      "sbert_similarity": {
+        "mean": 0.5258942544460297,
+        "std": 0.0595377761713987,
+        "median": 0.5258942544460297,
+        "min": 0.4837946891784668,
+        "max": 0.5679938197135925,
+        "count": 2
+      }
+    },
+    "category_4": {
+      "exact_match": {
+        "mean": 0.25,
+        "std": 0.4629100498862757,
+        "median": 0.0,
+        "min": 0,
+        "max": 1,
+        "count": 8
+      },
+      "f1": {
+        "mean": 0.5769704433497537,
+        "std": 0.40479978972506875,
+        "median": 0.6293103448275862,
+        "min": 0.0,
+        "max": 1.0,
+        "count": 8
+      },
+      "rouge1_f": {
+        "mean": 0.5861111111111111,
+        "std": 0.4109072853797198,
+        "median": 0.6500000000000001,
+        "min": 0.0,
+        "max": 1.0,
+        "count": 8
+      },
+      "rouge2_f": {
+        "mean": 0.48944805194805197,
+        "std": 0.3930420531114441,
+        "median": 0.5,
+        "min": 0.0,
+        "max": 1.0,
+        "count": 8
+      },
+      "rougeL_f": {
+        "mean": 0.5756944444444445,
+        "std": 0.4144431411954487,
+        "median": 0.6500000000000001,
+        "min": 0.0,
+        "max": 1.0,
+        "count": 8
+      },
+      "bleu1": {
+        "mean": 0.5321190341978271,
+        "std": 0.4005135703744858,
+        "median": 0.5770055485560144,
+        "min": 0,
+        "max": 1.0,
+        "count": 8
+      },
+      "bleu2": {
+        "mean": 0.47620875998309015,
+        "std": 0.3934472012274684,
+        "median": 0.45412414523193145,
+        "min": 0,
+        "max": 1.0,
+        "count": 8
+      },
+      "bleu3": {
+        "mean": 0.2928090739579102,
+        "std": 0.22031956894709268,
+        "median": 0.3008257470307689,
+        "min": 0,
+        "max": 0.5954268738104647,
+        "count": 8
+      },
+      "bleu4": {
+        "mean": 0.22728571644840248,
+        "std": 0.18080317601719995,
+        "median": 0.243252372127651,
+        "min": 0,
+        "max": 0.5408804419255526,
+        "count": 8
+      },
+      "bert_precision": {
+        "mean": 0.9315306767821312,
+        "std": 0.06756863380271802,
+        "median": 0.944550484418869,
+        "min": 0.8202089667320251,
+        "max": 1.0,
+        "count": 8
+      },
+      "bert_recall": {
+        "mean": 0.9335160702466965,
+        "std": 0.07169461691935029,
+        "median": 0.9423061311244965,
+        "min": 0.8079301118850708,
+        "max": 1.0,
+        "count": 8
+      },
+      "bert_f1": {
+        "mean": 0.9324761852622032,
+        "std": 0.06933008708363048,
+        "median": 0.9426435232162476,
+        "min": 0.8140232563018799,
+        "max": 1.0,
+        "count": 8
+      },
+      "meteor": {
+        "mean": 0.5593668209141339,
+        "std": 0.3788496538014055,
+        "median": 0.6397340287282203,
+        "min": 0.0,
+        "max": 0.9375,
+        "count": 8
+      },
+      "sbert_similarity": {
+        "mean": 0.6557489279657602,
+        "std": 0.3684236445096723,
+        "median": 0.7701115012168884,
+        "min": 0.08069588243961334,
+        "max": 1.0,
+        "count": 8
+      }
+    },
+    "category_5": {
+      "exact_match": {
+        "mean": 1,
+        "std": 0.0,
+        "median": 1,
+        "min": 1,
+        "max": 1,
+        "count": 5
+      },
+      "f1": {
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "count": 5
+      },
+      "rouge1_f": {
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "count": 5
+      },
+      "rouge2_f": {
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "count": 5
+      },
+      "rougeL_f": {
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "count": 5
+      },
+      "bleu1": {
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "count": 5
+      },
+      "bleu2": {
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "count": 5
+      },
+      "bleu3": {
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "count": 5
+      },
+      "bleu4": {
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "count": 5
+      },
+      "bert_precision": {
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "count": 5
+      },
+      "bert_recall": {
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "count": 5
+      },
+      "bert_f1": {
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "count": 5
+      },
+      "meteor": {
+        "mean": 0.996,
+        "std": 0.0,
+        "median": 0.996,
+        "min": 0.996,
+        "max": 0.996,
+        "count": 5
+      },
+      "sbert_similarity": {
+        "mean": 0.9999999403953552,
+        "std": 0.0,
+        "median": 0.9999999403953552,
+        "min": 0.9999999403953552,
+        "max": 0.9999999403953552,
+        "count": 5
+      },
+      "adversarial_correct": {
+        "mean": 1,
+        "std": 0.0,
+        "median": 1,
+        "min": 1,
+        "max": 1,
+        "count": 5
+      }
+    }
+  },
+  "ratio": 1.0,
+  "seed": 43,
+  "legacy_c5_reference": false,
+  "refresh_index": false,
+  "memory_scope": "conversation",
+  "pooled_notes": null,
+  "cached_samples": [
+    0
+  ],
+  "stale_cache_samples": [],
+  "llm_failures": {},
+  "individual_results": [
+    {
+      "sample_id": 0,
+      "question": "What did Caroline research?",
+      "prediction": "adoption process",
+      "reference": "Adoption agencies",
+      "category": 1,
+      "adversarial_answer": null,
+      "metrics": {
+        "exact_match": 0,
+        "f1": 0.5,
+        "rouge1_f": 0.5,
+        "rouge2_f": 0.0,
+        "rougeL_f": 0.5,
+        "bleu1": 0.5,
+        "bleu2": 0.223606797749979,
+        "bleu3": 0.1740444189610778,
+        "bleu4": 0.1495348781221221,
+        "bert_precision": 0.9270780086517334,
+        "bert_recall": 0.9268651008605957,
+        "bert_f1": 0.9269714951515198,
+        "meteor": 0.25,
+        "sbert_similarity": 0.7453683018684387
+      }
+    },
+    {
+      "sample_id": 0,
+      "question": "When did Melanie run a charity race?",
+      "prediction": "Last Saturday",
+      "reference": "The sunday before 25 May 2023",
+      "category": 2,
+      "adversarial_answer": null,
+      "metrics": {
+        "exact_match": 0,
+        "f1": 0.0,
+        "rouge1_f": 0.0,
+        "rouge2_f": 0.0,
+        "rougeL_f": 0.0,
+        "bleu1": 0,
+        "bleu2": 0,
+        "bleu3": 0,
+        "bleu4": 0,
+        "bert_precision": 0.9091789722442627,
+        "bert_recall": 0.8386623859405518,
+        "bert_f1": 0.8724982142448425,
+        "meteor": 0.0,
+        "sbert_similarity": 0.4837946891784668
+      }
+    },
+    {
+      "sample_id": 0,
+      "question": "When is Melanie planning on going camping?",
+      "prediction": "Next month",
+      "reference": "June 2023",
+      "category": 2,
+      "adversarial_answer": null,
+      "metrics": {
+        "exact_match": 0,
+        "f1": 0.0,
+        "rouge1_f": 0.0,
+        "rouge2_f": 0.0,
+        "rougeL_f": 0.0,
+        "bleu1": 0,
+        "bleu2": 0,
+        "bleu3": 0,
+        "bleu4": 0,
+        "bert_precision": 0.8716425895690918,
+        "bert_recall": 0.8618625402450562,
+        "bert_f1": 0.866724967956543,
+        "meteor": 0.0,
+        "sbert_similarity": 0.5679938197135925
+      }
+    },
+    {
+      "sample_id": 0,
+      "question": "What did the charity race raise awareness for?",
+      "prediction": "mental health",
+      "reference": "mental health",
+      "category": 4,
+      "adversarial_answer": null,
+      "metrics": {
+        "exact_match": 1,
+        "f1": 1.0,
+        "rouge1_f": 1.0,
+        "rouge2_f": 1.0,
+        "rougeL_f": 1.0,
+        "bleu1": 1.0,
+        "bleu2": 1.0,
+        "bleu3": 0.46773514128719823,
+        "bleu4": 0.316227766016838,
+        "bert_precision": 0.9999998211860657,
+        "bert_recall": 0.9999998211860657,
+        "bert_f1": 0.9999998211860657,
+        "meteor": 0.9375,
+        "sbert_similarity": 1.0
+      }
+    },
+    {
+      "sample_id": 0,
+      "question": "What did Melanie realize after the charity race?",
+      "prediction": "self-care is really important",
+      "reference": "self-care is important",
+      "category": 4,
+      "adversarial_answer": null,
+      "metrics": {
+        "exact_match": 0,
+        "f1": 0.8571428571428571,
+        "rouge1_f": 0.888888888888889,
+        "rouge2_f": 0.5714285714285715,
+        "rougeL_f": 0.888888888888889,
+        "bleu1": 0.75,
+        "bleu2": 0.49999999999999994,
+        "bleu3": 0.23549424823785386,
+        "bleu4": 0.1880301546543197,
+        "bert_precision": 0.9836651086807251,
+        "bert_recall": 0.9962224364280701,
+        "bert_f1": 0.98990398645401,
+        "meteor": 0.8243727598566307,
+        "sbert_similarity": 0.9689135551452637
+      }
+    },
+    {
+      "sample_id": 0,
+      "question": "How does Melanie prioritize self-care?",
+      "prediction": "carving out some me-time each day - running, reading, or playing my violin",
+      "reference": "by carving out some me-time each day for activities like running, reading, or playing the violin",
+      "category": 4,
+      "adversarial_answer": null,
+      "metrics": {
+        "exact_match": 0,
+        "f1": 0.7586206896551724,
+        "rouge1_f": 0.8000000000000002,
+        "rouge2_f": 0.6428571428571429,
+        "rougeL_f": 0.8000000000000002,
+        "bleu1": 0.7095666526675843,
+        "bleu2": 0.6441739116870948,
+        "bleu3": 0.5954268738104647,
+        "bleu4": 0.5408804419255526,
+        "bert_precision": 0.9622870683670044,
+        "bert_recall": 0.9513996839523315,
+        "bert_f1": 0.9568123817443848,
+        "meteor": 0.6935305574564405,
+        "sbert_similarity": 0.8146423101425171
+      }
+    },
+    {
+      "sample_id": 0,
+      "question": "What are Caroline's plans for the summer?",
+      "prediction": "Not enough information to answer.",
+      "reference": "researching adoption agencies",
+      "category": 4,
+      "adversarial_answer": null,
+      "metrics": {
+        "exact_match": 0,
+        "f1": 0.0,
+        "rouge1_f": 0.0,
+        "rouge2_f": 0.0,
+        "rougeL_f": 0.0,
+        "bleu1": 0,
+        "bleu2": 0,
+        "bleu3": 0,
+        "bleu4": 0,
+        "bert_precision": 0.8559965491294861,
+        "bert_recall": 0.8492225408554077,
+        "bert_f1": 0.85259610414505,
+        "meteor": 0.0,
+        "sbert_similarity": 0.08069588243961334
+      }
+    },
+    {
+      "sample_id": 0,
+      "question": "What type of individuals does the adoption agency Caroline is considering support?",
+      "prediction": "LGBTQ+ individuals",
+      "reference": "LGBTQ+ individuals",
+      "category": 4,
+      "adversarial_answer": null,
+      "metrics": {
+        "exact_match": 1,
+        "f1": 1.0,
+        "rouge1_f": 1.0,
+        "rouge2_f": 1.0,
+        "rougeL_f": 1.0,
+        "bleu1": 1.0,
+        "bleu2": 1.0,
+        "bleu3": 0.46773514128719823,
+        "bleu4": 0.316227766016838,
+        "bert_precision": 1.0,
+        "bert_recall": 1.0,
+        "bert_f1": 1.0,
+        "meteor": 0.9375,
+        "sbert_similarity": 1.0
+      }
+    },
+    {
+      "sample_id": 0,
+      "question": "Why did Caroline choose the adoption agency?",
+      "prediction": "Because they help LGBTQ+ folks with adoption; their inclusivity and support really spoke to her.",
+      "reference": "because of their inclusivity and support for LGBTQ+ individuals",
+      "category": 4,
+      "adversarial_answer": null,
+      "metrics": {
+        "exact_match": 0,
+        "f1": 0.5,
+        "rouge1_f": 0.5,
+        "rouge2_f": 0.2727272727272727,
+        "rougeL_f": 0.4166666666666667,
+        "bleu1": 0.35294117647058826,
+        "bleu2": 0.2572478777137633,
+        "bleu3": 0.20992394121688274,
+        "bleu4": 0.1584450133726893,
+        "bert_precision": 0.9032739996910095,
+        "bert_recall": 0.9332125782966614,
+        "bert_f1": 0.917999267578125,
+        "meteor": 0.5859375,
+        "sbert_similarity": 0.7255806922912598
+      }
+    },
+    {
+      "sample_id": 0,
+      "question": "What is Caroline excited about in the adoption process?",
+      "prediction": "safe, loving home for kids who need it",
+      "reference": "creating a family for kids who need one",
+      "category": 4,
+      "adversarial_answer": null,
+      "metrics": {
+        "exact_match": 0,
+        "f1": 0.5,
+        "rouge1_f": 0.5,
+        "rouge2_f": 0.42857142857142855,
+        "rougeL_f": 0.5,
+        "bleu1": 0.4444444444444444,
+        "bleu2": 0.408248290463863,
+        "bleu3": 0.3661572458236839,
+        "bleu4": 0.2984745896009823,
+        "bert_precision": 0.9268139004707336,
+        "bert_recall": 0.9301413893699646,
+        "bert_f1": 0.9284746646881104,
+        "meteor": 0.49609375,
+        "sbert_similarity": 0.4686463475227356
+      }
+    },
+    {
+      "sample_id": 0,
+      "question": "What does Melanie think about Caroline's decision to adopt?",
+      "prediction": "caring heart",
+      "reference": "she thinks Caroline is doing something amazing and will be an awesome mom",
+      "category": 4,
+      "adversarial_answer": null,
+      "metrics": {
+        "exact_match": 0,
+        "f1": 0.0,
+        "rouge1_f": 0.0,
+        "rouge2_f": 0.0,
+        "rougeL_f": 0.0,
+        "bleu1": 0,
+        "bleu2": 0,
+        "bleu3": 0,
+        "bleu4": 0,
+        "bert_precision": 0.8202089667320251,
+        "bert_recall": 0.8079301118850708,
+        "bert_f1": 0.8140232563018799,
+        "meteor": 0.0,
+        "sbert_similarity": 0.18751263618469238
+      }
+    },
+    {
+      "sample_id": 0,
+      "question": "What did Caroline realize after her charity race?",
+      "prediction": "Not mentioned in the conversation",
+      "reference": "Not mentioned in the conversation",
+      "category": 5,
+      "adversarial_answer": "self-care is important",
+      "metrics": {
+        "exact_match": 1,
+        "f1": 1.0,
+        "rouge1_f": 1.0,
+        "rouge2_f": 1.0,
+        "rougeL_f": 1.0,
+        "bleu1": 1.0,
+        "bleu2": 1.0,
+        "bleu3": 1.0,
+        "bleu4": 1.0,
+        "bert_precision": 1.0,
+        "bert_recall": 1.0,
+        "bert_f1": 1.0,
+        "meteor": 0.996,
+        "sbert_similarity": 0.9999999403953552,
+        "adversarial_correct": 1
+      }
+    },
+    {
+      "sample_id": 0,
+      "question": "What are Melanie's plans for the summer with respect to adoption?",
+      "prediction": "Not mentioned in the conversation",
+      "reference": "Not mentioned in the conversation",
+      "category": 5,
+      "adversarial_answer": "researching adoption agencies",
+      "metrics": {
+        "exact_match": 1,
+        "f1": 1.0,
+        "rouge1_f": 1.0,
+        "rouge2_f": 1.0,
+        "rougeL_f": 1.0,
+        "bleu1": 1.0,
+        "bleu2": 1.0,
+        "bleu3": 1.0,
+        "bleu4": 1.0,
+        "bert_precision": 1.0,
+        "bert_recall": 1.0,
+        "bert_f1": 1.0,
+        "meteor": 0.996,
+        "sbert_similarity": 0.9999999403953552,
+        "adversarial_correct": 1
+      }
+    },
+    {
+      "sample_id": 0,
+      "question": "What type of individuals does the adoption agency Melanie is considering support?",
+      "prediction": "Not mentioned in the conversation",
+      "reference": "Not mentioned in the conversation",
+      "category": 5,
+      "adversarial_answer": "LGBTQ+ individuals",
+      "metrics": {
+        "exact_match": 1,
+        "f1": 1.0,
+        "rouge1_f": 1.0,
+        "rouge2_f": 1.0,
+        "rougeL_f": 1.0,
+        "bleu1": 1.0,
+        "bleu2": 1.0,
+        "bleu3": 1.0,
+        "bleu4": 1.0,
+        "bert_precision": 1.0,
+        "bert_recall": 1.0,
+        "bert_f1": 1.0,
+        "meteor": 0.996,
+        "sbert_similarity": 0.9999999403953552,
+        "adversarial_correct": 1
+      }
+    },
+    {
+      "sample_id": 0,
+      "question": "Why did Melanie choose the adoption agency?",
+      "prediction": "Not mentioned in the conversation",
+      "reference": "Not mentioned in the conversation",
+      "category": 5,
+      "adversarial_answer": "because of their inclusivity and support for LGBTQ+ individuals",
+      "metrics": {
+        "exact_match": 1,
+        "f1": 1.0,
+        "rouge1_f": 1.0,
+        "rouge2_f": 1.0,
+        "rougeL_f": 1.0,
+        "bleu1": 1.0,
+        "bleu2": 1.0,
+        "bleu3": 1.0,
+        "bleu4": 1.0,
+        "bert_precision": 1.0,
+        "bert_recall": 1.0,
+        "bert_f1": 1.0,
+        "meteor": 0.996,
+        "sbert_similarity": 0.9999999403953552,
+        "adversarial_correct": 1
+      }
+    },
+    {
+      "sample_id": 0,
+      "question": "What is Melanie excited about in her adoption process?",
+      "prediction": "Not mentioned in the conversation",
+      "reference": "Not mentioned in the conversation",
+      "category": 5,
+      "adversarial_answer": "creating a family for kids who need one",
+      "metrics": {
+        "exact_match": 1,
+        "f1": 1.0,
+        "rouge1_f": 1.0,
+        "rouge2_f": 1.0,
+        "rougeL_f": 1.0,
+        "bleu1": 1.0,
+        "bleu2": 1.0,
+        "bleu3": 1.0,
+        "bleu4": 1.0,
+        "bert_precision": 1.0,
+        "bert_recall": 1.0,
+        "bert_f1": 1.0,
+        "meteor": 0.996,
+        "sbert_similarity": 0.9999999403953552,
+        "adversarial_correct": 1
+      }
+    }
+  ]
+}

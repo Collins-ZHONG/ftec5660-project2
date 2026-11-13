@@ -1,0 +1,657 @@
+2026-11-09 03:09:17,041 - INFO - Loading dataset from C:\Users\Collins\Python\FTEC5660\ind_proj_2\ftec5660-project2\data/locomo_conv30_d2_pilot.json
+2026-11-09 03:09:17,041 - INFO - Using ROBUST memory layer (no JSON schema dependency)
+2026-11-09 03:09:17,058 - INFO - Loaded 1 samples
+2026-11-09 03:09:18,289 - INFO - No cached memories found for sample 0. Creating new memories.
+2026-11-09 03:09:18,296 - INFO - Successfully cached 0 memories
+2026-11-09 03:09:18,296 - INFO - Processing sample 1/1
+2026-11-09 03:10:17,846 - INFO - Question 1: What did Caroline research?
+2026-11-09 03:10:17,846 - INFO - Prediction: beauty
+2026-11-09 03:10:17,846 - INFO - Reference: Adoption agencies
+2026-11-09 03:10:17,846 - INFO - User Prompt: Based on the context: , write an answer in the form of a short phrase for the following question. Answer with exact words from the context whenever possible.
+
+Question: What did Caroline research? Short answer:
+2026-11-09 03:10:17,846 - INFO - Category: 1
+2026-11-09 03:10:17,846 - INFO - Raw Context: 
+2026-11-09 03:10:26,733 - INFO - Question 2: When did Melanie run a charity race?
+2026-11-09 03:10:26,734 - INFO - Prediction: Last Sunday
+2026-11-09 03:10:26,734 - INFO - Reference: The sunday before 25 May 2023
+2026-11-09 03:10:26,734 - INFO - User Prompt: Based on the context: , answer the following question. Use DATE of CONVERSATION to answer with an approximate date.
+Please generate the shortest possible answer, using words from the conversation where possible, and avoid using any subjects.
+
+Question: When did Melanie run a charity race? Short answer:
+2026-11-09 03:10:26,734 - INFO - Category: 2
+2026-11-09 03:10:26,734 - INFO - Raw Context: 
+2026-11-09 03:10:34,793 - INFO - Question 3: When is Melanie planning on going camping?
+2026-11-09 03:10:34,793 - INFO - Prediction: Not specified
+2026-11-09 03:10:34,793 - INFO - Reference: June 2023
+2026-11-09 03:10:34,793 - INFO - User Prompt: Based on the context: , answer the following question. Use DATE of CONVERSATION to answer with an approximate date.
+Please generate the shortest possible answer, using words from the conversation where possible, and avoid using any subjects.
+
+Question: When is Melanie planning on going camping? Short answer:
+2026-11-09 03:10:34,793 - INFO - Category: 2
+2026-11-09 03:10:34,795 - INFO - Raw Context: 
+2026-11-09 03:10:42,649 - INFO - Question 4: What did the charity race raise awareness for?
+2026-11-09 03:10:42,649 - INFO - Prediction: mental health
+2026-11-09 03:10:42,649 - INFO - Reference: mental health
+2026-11-09 03:10:42,649 - INFO - User Prompt: Based on the context: , write an answer in the form of a short phrase for the following question. Answer with exact words from the context whenever possible.
+
+Question: What did the charity race raise awareness for? Short answer:
+2026-11-09 03:10:42,649 - INFO - Category: 4
+2026-11-09 03:10:42,659 - INFO - Raw Context: 
+2026-11-09 03:10:51,113 - INFO - Question 5: What did Melanie realize after the charity race?
+2026-11-09 03:10:51,115 - INFO - Prediction: The context needed to answer this question is missing. Please provide the context text so I can give an exact short phrase answer.
+2026-11-09 03:10:51,115 - INFO - Reference: self-care is important
+2026-11-09 03:10:51,115 - INFO - User Prompt: Based on the context: , write an answer in the form of a short phrase for the following question. Answer with exact words from the context whenever possible.
+
+Question: What did Melanie realize after the charity race? Short answer:
+2026-11-09 03:10:51,115 - INFO - Category: 4
+2026-11-09 03:10:51,115 - INFO - Raw Context: 
+2026-11-09 03:10:59,473 - INFO - Question 6: How does Melanie prioritize self-care?
+2026-11-09 03:10:59,473 - INFO - Prediction: By making time for herself
+2026-11-09 03:10:59,473 - INFO - Reference: by carving out some me-time each day for activities like running, reading, or playing the violin
+2026-11-09 03:10:59,473 - INFO - User Prompt: Based on the context: , write an answer in the form of a short phrase for the following question. Answer with exact words from the context whenever possible.
+
+Question: How does Melanie prioritize self-care? Short answer:
+2026-11-09 03:10:59,473 - INFO - Category: 4
+2026-11-09 03:10:59,473 - INFO - Raw Context: 
+2026-11-09 03:11:07,348 - INFO - Question 7: What are Caroline's plans for the summer?
+2026-11-09 03:11:07,348 - INFO - Prediction: go to the beach
+2026-11-09 03:11:07,348 - INFO - Reference: researching adoption agencies
+2026-11-09 03:11:07,348 - INFO - User Prompt: Based on the context: , write an answer in the form of a short phrase for the following question. Answer with exact words from the context whenever possible.
+
+Question: What are Caroline's plans for the summer? Short answer:
+2026-11-09 03:11:07,348 - INFO - Category: 4
+2026-11-09 03:11:07,348 - INFO - Raw Context: 
+2026-11-09 03:11:15,436 - INFO - Question 8: What type of individuals does the adoption agency Caroline is considering support?
+2026-11-09 03:11:15,437 - INFO - Prediction: expectant mothers
+2026-11-09 03:11:15,437 - INFO - Reference: LGBTQ+ individuals
+2026-11-09 03:11:15,437 - INFO - User Prompt: Based on the context: , write an answer in the form of a short phrase for the following question. Answer with exact words from the context whenever possible.
+
+Question: What type of individuals does the adoption agency Caroline is considering support? Short answer:
+2026-11-09 03:11:15,437 - INFO - Category: 4
+2026-11-09 03:11:15,437 - INFO - Raw Context: 
+2026-11-09 03:11:23,436 - INFO - Question 9: Why did Caroline choose the adoption agency?
+2026-11-09 03:11:23,436 - INFO - Prediction: To help her have a baby
+2026-11-09 03:11:23,436 - INFO - Reference: because of their inclusivity and support for LGBTQ+ individuals
+2026-11-09 03:11:23,436 - INFO - User Prompt: Based on the context: , write an answer in the form of a short phrase for the following question. Answer with exact words from the context whenever possible.
+
+Question: Why did Caroline choose the adoption agency? Short answer:
+2026-11-09 03:11:23,436 - INFO - Category: 4
+2026-11-09 03:11:23,436 - INFO - Raw Context: 
+2026-11-09 03:11:31,348 - INFO - Question 10: What is Caroline excited about in the adoption process?
+2026-11-09 03:11:31,348 - INFO - Prediction: meeting the birth mother
+2026-11-09 03:11:31,350 - INFO - Reference: creating a family for kids who need one
+2026-11-09 03:11:31,350 - INFO - User Prompt: Based on the context: , write an answer in the form of a short phrase for the following question. Answer with exact words from the context whenever possible.
+
+Question: What is Caroline excited about in the adoption process? Short answer:
+2026-11-09 03:11:31,350 - INFO - Category: 4
+2026-11-09 03:11:31,350 - INFO - Raw Context: 
+2026-11-09 03:11:31,351 - INFO - Processed 10 questions
+2026-11-09 03:11:39,338 - INFO - Question 11: What does Melanie think about Caroline's decision to adopt?
+2026-11-09 03:11:39,338 - INFO - Prediction: unhappy
+2026-11-09 03:11:39,338 - INFO - Reference: she thinks Caroline is doing something amazing and will be an awesome mom
+2026-11-09 03:11:39,338 - INFO - User Prompt: Based on the context: , write an answer in the form of a short phrase for the following question. Answer with exact words from the context whenever possible.
+
+Question: What does Melanie think about Caroline's decision to adopt? Short answer:
+2026-11-09 03:11:39,338 - INFO - Category: 4
+2026-11-09 03:11:39,338 - INFO - Raw Context: 
+2026-11-09 03:11:47,132 - INFO - Question 12: What did Caroline realize after her charity race?
+2026-11-09 03:11:47,132 - INFO - Prediction: Not mentioned in the conversation
+2026-11-09 03:11:47,132 - INFO - Reference: Not mentioned in the conversation
+2026-11-09 03:11:47,132 - INFO - User Prompt: Based on the context: , answer the following question. What did Caroline realize after her charity race?
+
+Select the correct answer: Not mentioned in the conversation or self-care is important  Short answer:
+2026-11-09 03:11:47,132 - INFO - Category: 5
+2026-11-09 03:11:47,132 - INFO - Raw Context: 
+2026-11-09 03:11:54,935 - INFO - Question 13: What are Melanie's plans for the summer with respect to adoption?
+2026-11-09 03:11:54,935 - INFO - Prediction: Not mentioned in the conversation
+2026-11-09 03:11:54,935 - INFO - Reference: Not mentioned in the conversation
+2026-11-09 03:11:54,935 - INFO - User Prompt: Based on the context: , answer the following question. What are Melanie's plans for the summer with respect to adoption?
+
+Select the correct answer: Not mentioned in the conversation or researching adoption agencies  Short answer:
+2026-11-09 03:11:54,935 - INFO - Category: 5
+2026-11-09 03:11:54,937 - INFO - Raw Context: 
+2026-11-09 03:12:02,987 - INFO - Question 14: What type of individuals does the adoption agency Melanie is considering support?
+2026-11-09 03:12:02,987 - INFO - Prediction: Not mentioned in the conversation
+2026-11-09 03:12:02,987 - INFO - Reference: Not mentioned in the conversation
+2026-11-09 03:12:02,987 - INFO - User Prompt: Based on the context: , answer the following question. What type of individuals does the adoption agency Melanie is considering support?
+
+Select the correct answer: LGBTQ+ individuals or Not mentioned in the conversation  Short answer:
+2026-11-09 03:12:02,987 - INFO - Category: 5
+2026-11-09 03:12:02,987 - INFO - Raw Context: 
+2026-11-09 03:12:10,178 - INFO - Question 15: Why did Melanie choose the adoption agency?
+2026-11-09 03:12:10,181 - INFO - Prediction: because of their inclusivity and support for LGBTQ+ individuals
+2026-11-09 03:12:10,181 - INFO - Reference: Not mentioned in the conversation
+2026-11-09 03:12:10,181 - INFO - User Prompt: Based on the context: , answer the following question. Why did Melanie choose the adoption agency?
+
+Select the correct answer: because of their inclusivity and support for LGBTQ+ individuals or Not mentioned in the conversation  Short answer:
+2026-11-09 03:12:10,181 - INFO - Category: 5
+2026-11-09 03:12:10,181 - INFO - Raw Context: 
+2026-11-09 03:12:19,068 - INFO - Question 16: What is Melanie excited about in her adoption process?
+2026-11-09 03:12:19,068 - INFO - Prediction: creating a family for kids who need one
+2026-11-09 03:12:19,068 - INFO - Reference: Not mentioned in the conversation
+2026-11-09 03:12:19,068 - INFO - User Prompt: Based on the context: , answer the following question. What is Melanie excited about in her adoption process?
+
+Select the correct answer: creating a family for kids who need one or Not mentioned in the conversation  Short answer:
+2026-11-09 03:12:19,068 - INFO - Category: 5
+2026-11-09 03:12:19,068 - INFO - Raw Context: 
+2026-11-09 03:12:19,077 - INFO - Error number: 0
+2026-11-09 03:12:19,079 - INFO - LLM failures absorbed in this run: none
+2026-11-09 03:12:19,088 - INFO - Results saved to C:\Users\Collins\Python\FTEC5660\ind_proj_2\ftec5660-project2\pilot_k10.json
+2026-11-09 03:12:19,088 - INFO - Evaluation Summary:
+2026-11-09 03:12:19,088 - INFO - Total questions evaluated: 16
+2026-11-09 03:12:19,088 - INFO - Category Distribution:
+2026-11-09 03:12:19,088 - INFO - Category 1: 1 questions (6.2%)
+2026-11-09 03:12:19,088 - INFO - Category 2: 2 questions (12.5%)
+2026-11-09 03:12:19,090 - INFO - Category 4: 8 questions (50.0%)
+2026-11-09 03:12:19,090 - INFO - Category 5: 5 questions (31.2%)
+2026-11-09 03:12:19,090 - INFO - Aggregate Metrics:
+2026-11-09 03:12:19,090 - INFO - Overall:
+2026-11-09 03:12:19,090 - INFO -   exact_match:
+2026-11-09 03:12:19,090 - INFO -     mean: 0.2500
+2026-11-09 03:12:19,090 - INFO -     std: 0.4472
+2026-11-09 03:12:19,090 - INFO -     median: 0.0000
+2026-11-09 03:12:19,090 - INFO -     min: 0.0000
+2026-11-09 03:12:19,090 - INFO -     max: 1.0000
+2026-11-09 03:12:19,090 - INFO -     count: 16.0000
+2026-11-09 03:12:19,090 - INFO -   f1:
+2026-11-09 03:12:19,090 - INFO -     mean: 0.2830
+2026-11-09 03:12:19,090 - INFO -     std: 0.4340
+2026-11-09 03:12:19,090 - INFO -     median: 0.0000
+2026-11-09 03:12:19,090 - INFO -     min: 0.0000
+2026-11-09 03:12:19,090 - INFO -     max: 1.0000
+2026-11-09 03:12:19,090 - INFO -     count: 16.0000
+2026-11-09 03:12:19,096 - INFO -   rouge1_f:
+2026-11-09 03:12:19,097 - INFO -     mean: 0.2873
+2026-11-09 03:12:19,097 - INFO -     std: 0.4337
+2026-11-09 03:12:19,097 - INFO -     median: 0.0000
+2026-11-09 03:12:19,097 - INFO -     min: 0.0000
+2026-11-09 03:12:19,097 - INFO -     max: 1.0000
+2026-11-09 03:12:19,097 - INFO -     count: 16.0000
+2026-11-09 03:12:19,099 - INFO -   rouge2_f:
+2026-11-09 03:12:19,099 - INFO -     mean: 0.2500
+2026-11-09 03:12:19,099 - INFO -     std: 0.4472
+2026-11-09 03:12:19,099 - INFO -     median: 0.0000
+2026-11-09 03:12:19,099 - INFO -     min: 0.0000
+2026-11-09 03:12:19,099 - INFO -     max: 1.0000
+2026-11-09 03:12:19,099 - INFO -     count: 16.0000
+2026-11-09 03:12:19,099 - INFO -   rougeL_f:
+2026-11-09 03:12:19,099 - INFO -     mean: 0.2873
+2026-11-09 03:12:19,099 - INFO -     std: 0.4337
+2026-11-09 03:12:19,099 - INFO -     median: 0.0000
+2026-11-09 03:12:19,099 - INFO -     min: 0.0000
+2026-11-09 03:12:19,099 - INFO -     max: 1.0000
+2026-11-09 03:12:19,099 - INFO -     count: 16.0000
+2026-11-09 03:12:19,099 - INFO -   bleu1:
+2026-11-09 03:12:19,099 - INFO -     mean: 0.2586
+2026-11-09 03:12:19,099 - INFO -     std: 0.4425
+2026-11-09 03:12:19,099 - INFO -     median: 0.0000
+2026-11-09 03:12:19,099 - INFO -     min: 0.0000
+2026-11-09 03:12:19,099 - INFO -     max: 1.0000
+2026-11-09 03:12:19,099 - INFO -     count: 16.0000
+2026-11-09 03:12:19,099 - INFO -   bleu2:
+2026-11-09 03:12:19,099 - INFO -     mean: 0.2532
+2026-11-09 03:12:19,099 - INFO -     std: 0.4454
+2026-11-09 03:12:19,099 - INFO -     median: 0.0000
+2026-11-09 03:12:19,099 - INFO -     min: 0.0000
+2026-11-09 03:12:19,099 - INFO -     max: 1.0000
+2026-11-09 03:12:19,099 - INFO -     count: 16.0000
+2026-11-09 03:12:19,107 - INFO -   bleu3:
+2026-11-09 03:12:19,107 - INFO -     mean: 0.2191
+2026-11-09 03:12:19,107 - INFO -     std: 0.4042
+2026-11-09 03:12:19,107 - INFO -     median: 0.0000
+2026-11-09 03:12:19,107 - INFO -     min: 0.0000
+2026-11-09 03:12:19,107 - INFO -     max: 1.0000
+2026-11-09 03:12:19,107 - INFO -     count: 16.0000
+2026-11-09 03:12:19,107 - INFO -   bleu4:
+2026-11-09 03:12:19,109 - INFO -     mean: 0.2093
+2026-11-09 03:12:19,109 - INFO -     std: 0.4000
+2026-11-09 03:12:19,109 - INFO -     median: 0.0000
+2026-11-09 03:12:19,109 - INFO -     min: 0.0000
+2026-11-09 03:12:19,109 - INFO -     max: 1.0000
+2026-11-09 03:12:19,110 - INFO -     count: 16.0000
+2026-11-09 03:12:19,110 - INFO -   bert_precision:
+2026-11-09 03:12:19,110 - INFO -     mean: 0.9011
+2026-11-09 03:12:19,110 - INFO -     std: 0.0640
+2026-11-09 03:12:19,110 - INFO -     median: 0.8782
+2026-11-09 03:12:19,110 - INFO -     min: 0.8141
+2026-11-09 03:12:19,110 - INFO -     max: 1.0000
+2026-11-09 03:12:19,113 - INFO -     count: 16.0000
+2026-11-09 03:12:19,113 - INFO -   bert_recall:
+2026-11-09 03:12:19,113 - INFO -     mean: 0.8888
+2026-11-09 03:12:19,113 - INFO -     std: 0.0691
+2026-11-09 03:12:19,113 - INFO -     median: 0.8612
+2026-11-09 03:12:19,113 - INFO -     min: 0.8215
+2026-11-09 03:12:19,113 - INFO -     max: 1.0000
+2026-11-09 03:12:19,113 - INFO -     count: 16.0000
+2026-11-09 03:12:19,113 - INFO -   bert_f1:
+2026-11-09 03:12:19,113 - INFO -     mean: 0.8945
+2026-11-09 03:12:19,113 - INFO -     std: 0.0642
+2026-11-09 03:12:19,113 - INFO -     median: 0.8704
+2026-11-09 03:12:19,113 - INFO -     min: 0.8407
+2026-11-09 03:12:19,113 - INFO -     max: 1.0000
+2026-11-09 03:12:19,113 - INFO -     count: 16.0000
+2026-11-09 03:12:19,113 - INFO -   meteor:
+2026-11-09 03:12:19,113 - INFO -     mean: 0.2614
+2026-11-09 03:12:19,113 - INFO -     std: 0.4308
+2026-11-09 03:12:19,113 - INFO -     median: 0.0000
+2026-11-09 03:12:19,113 - INFO -     min: 0.0000
+2026-11-09 03:12:19,113 - INFO -     max: 0.9960
+2026-11-09 03:12:19,113 - INFO -     count: 16.0000
+2026-11-09 03:12:19,113 - INFO -   sbert_similarity:
+2026-11-09 03:12:19,113 - INFO -     mean: 0.4016
+2026-11-09 03:12:19,113 - INFO -     std: 0.3941
+2026-11-09 03:12:19,113 - INFO -     median: 0.2096
+2026-11-09 03:12:19,113 - INFO -     min: -0.0609
+2026-11-09 03:12:19,113 - INFO -     max: 1.0000
+2026-11-09 03:12:19,113 - INFO -     count: 16.0000
+2026-11-09 03:12:19,113 - INFO -   adversarial_correct:
+2026-11-09 03:12:19,113 - INFO -     mean: 0.6000
+2026-11-09 03:12:19,113 - INFO -     std: 0.5477
+2026-11-09 03:12:19,113 - INFO -     median: 1.0000
+2026-11-09 03:12:19,113 - INFO -     min: 0.0000
+2026-11-09 03:12:19,113 - INFO -     max: 1.0000
+2026-11-09 03:12:19,113 - INFO -     count: 5.0000
+2026-11-09 03:12:19,113 - INFO - Category 1:
+2026-11-09 03:12:19,122 - INFO -   exact_match:
+2026-11-09 03:12:19,122 - INFO -     mean: 0.0000
+2026-11-09 03:12:19,122 - INFO -     std: 0.0000
+2026-11-09 03:12:19,122 - INFO -     median: 0.0000
+2026-11-09 03:12:19,122 - INFO -     min: 0.0000
+2026-11-09 03:12:19,122 - INFO -     max: 0.0000
+2026-11-09 03:12:19,122 - INFO -     count: 1.0000
+2026-11-09 03:12:19,125 - INFO -   f1:
+2026-11-09 03:12:19,125 - INFO -     mean: 0.0000
+2026-11-09 03:12:19,125 - INFO -     std: 0.0000
+2026-11-09 03:12:19,125 - INFO -     median: 0.0000
+2026-11-09 03:12:19,125 - INFO -     min: 0.0000
+2026-11-09 03:12:19,126 - INFO -     max: 0.0000
+2026-11-09 03:12:19,127 - INFO -     count: 1.0000
+2026-11-09 03:12:19,128 - INFO -   rouge1_f:
+2026-11-09 03:12:19,128 - INFO -     mean: 0.0000
+2026-11-09 03:12:19,128 - INFO -     std: 0.0000
+2026-11-09 03:12:19,129 - INFO -     median: 0.0000
+2026-11-09 03:12:19,130 - INFO -     min: 0.0000
+2026-11-09 03:12:19,130 - INFO -     max: 0.0000
+2026-11-09 03:12:19,130 - INFO -     count: 1.0000
+2026-11-09 03:12:19,130 - INFO -   rouge2_f:
+2026-11-09 03:12:19,131 - INFO -     mean: 0.0000
+2026-11-09 03:12:19,132 - INFO -     std: 0.0000
+2026-11-09 03:12:19,132 - INFO -     median: 0.0000
+2026-11-09 03:12:19,132 - INFO -     min: 0.0000
+2026-11-09 03:12:19,133 - INFO -     max: 0.0000
+2026-11-09 03:12:19,134 - INFO -     count: 1.0000
+2026-11-09 03:12:19,134 - INFO -   rougeL_f:
+2026-11-09 03:12:19,134 - INFO -     mean: 0.0000
+2026-11-09 03:12:19,134 - INFO -     std: 0.0000
+2026-11-09 03:12:19,134 - INFO -     median: 0.0000
+2026-11-09 03:12:19,134 - INFO -     min: 0.0000
+2026-11-09 03:12:19,134 - INFO -     max: 0.0000
+2026-11-09 03:12:19,134 - INFO -     count: 1.0000
+2026-11-09 03:12:19,134 - INFO -   bleu1:
+2026-11-09 03:12:19,134 - INFO -     mean: 0.0000
+2026-11-09 03:12:19,134 - INFO -     std: 0.0000
+2026-11-09 03:12:19,134 - INFO -     median: 0.0000
+2026-11-09 03:12:19,134 - INFO -     min: 0.0000
+2026-11-09 03:12:19,138 - INFO -     max: 0.0000
+2026-11-09 03:12:19,138 - INFO -     count: 1.0000
+2026-11-09 03:12:19,138 - INFO -   bleu2:
+2026-11-09 03:12:19,138 - INFO -     mean: 0.0000
+2026-11-09 03:12:19,138 - INFO -     std: 0.0000
+2026-11-09 03:12:19,138 - INFO -     median: 0.0000
+2026-11-09 03:12:19,138 - INFO -     min: 0.0000
+2026-11-09 03:12:19,138 - INFO -     max: 0.0000
+2026-11-09 03:12:19,138 - INFO -     count: 1.0000
+2026-11-09 03:12:19,138 - INFO -   bleu3:
+2026-11-09 03:12:19,138 - INFO -     mean: 0.0000
+2026-11-09 03:12:19,138 - INFO -     std: 0.0000
+2026-11-09 03:12:19,138 - INFO -     median: 0.0000
+2026-11-09 03:12:19,138 - INFO -     min: 0.0000
+2026-11-09 03:12:19,138 - INFO -     max: 0.0000
+2026-11-09 03:12:19,138 - INFO -     count: 1.0000
+2026-11-09 03:12:19,138 - INFO -   bleu4:
+2026-11-09 03:12:19,138 - INFO -     mean: 0.0000
+2026-11-09 03:12:19,138 - INFO -     std: 0.0000
+2026-11-09 03:12:19,138 - INFO -     median: 0.0000
+2026-11-09 03:12:19,138 - INFO -     min: 0.0000
+2026-11-09 03:12:19,143 - INFO -     max: 0.0000
+2026-11-09 03:12:19,143 - INFO -     count: 1.0000
+2026-11-09 03:12:19,143 - INFO -   bert_precision:
+2026-11-09 03:12:19,143 - INFO -     mean: 0.8596
+2026-11-09 03:12:19,143 - INFO -     std: 0.0000
+2026-11-09 03:12:19,143 - INFO -     median: 0.8596
+2026-11-09 03:12:19,143 - INFO -     min: 0.8596
+2026-11-09 03:12:19,143 - INFO -     max: 0.8596
+2026-11-09 03:12:19,143 - INFO -     count: 1.0000
+2026-11-09 03:12:19,146 - INFO -   bert_recall:
+2026-11-09 03:12:19,146 - INFO -     mean: 0.8418
+2026-11-09 03:12:19,146 - INFO -     std: 0.0000
+2026-11-09 03:12:19,146 - INFO -     median: 0.8418
+2026-11-09 03:12:19,146 - INFO -     min: 0.8418
+2026-11-09 03:12:19,146 - INFO -     max: 0.8418
+2026-11-09 03:12:19,146 - INFO -     count: 1.0000
+2026-11-09 03:12:19,146 - INFO -   bert_f1:
+2026-11-09 03:12:19,146 - INFO -     mean: 0.8506
+2026-11-09 03:12:19,146 - INFO -     std: 0.0000
+2026-11-09 03:12:19,146 - INFO -     median: 0.8506
+2026-11-09 03:12:19,146 - INFO -     min: 0.8506
+2026-11-09 03:12:19,146 - INFO -     max: 0.8506
+2026-11-09 03:12:19,146 - INFO -     count: 1.0000
+2026-11-09 03:12:19,146 - INFO -   meteor:
+2026-11-09 03:12:19,146 - INFO -     mean: 0.0000
+2026-11-09 03:12:19,146 - INFO -     std: 0.0000
+2026-11-09 03:12:19,146 - INFO -     median: 0.0000
+2026-11-09 03:12:19,146 - INFO -     min: 0.0000
+2026-11-09 03:12:19,146 - INFO -     max: 0.0000
+2026-11-09 03:12:19,146 - INFO -     count: 1.0000
+2026-11-09 03:12:19,146 - INFO -   sbert_similarity:
+2026-11-09 03:12:19,146 - INFO -     mean: 0.2329
+2026-11-09 03:12:19,146 - INFO -     std: 0.0000
+2026-11-09 03:12:19,146 - INFO -     median: 0.2329
+2026-11-09 03:12:19,146 - INFO -     min: 0.2329
+2026-11-09 03:12:19,155 - INFO -     max: 0.2329
+2026-11-09 03:12:19,155 - INFO -     count: 1.0000
+2026-11-09 03:12:19,155 - INFO - Category 2:
+2026-11-09 03:12:19,155 - INFO -   exact_match:
+2026-11-09 03:12:19,155 - INFO -     mean: 0.0000
+2026-11-09 03:12:19,155 - INFO -     std: 0.0000
+2026-11-09 03:12:19,155 - INFO -     median: 0.0000
+2026-11-09 03:12:19,155 - INFO -     min: 0.0000
+2026-11-09 03:12:19,157 - INFO -     max: 0.0000
+2026-11-09 03:12:19,157 - INFO -     count: 2.0000
+2026-11-09 03:12:19,157 - INFO -   f1:
+2026-11-09 03:12:19,157 - INFO -     mean: 0.1250
+2026-11-09 03:12:19,157 - INFO -     std: 0.1768
+2026-11-09 03:12:19,157 - INFO -     median: 0.1250
+2026-11-09 03:12:19,157 - INFO -     min: 0.0000
+2026-11-09 03:12:19,157 - INFO -     max: 0.2500
+2026-11-09 03:12:19,159 - INFO -     count: 2.0000
+2026-11-09 03:12:19,159 - INFO -   rouge1_f:
+2026-11-09 03:12:19,159 - INFO -     mean: 0.1250
+2026-11-09 03:12:19,159 - INFO -     std: 0.1768
+2026-11-09 03:12:19,160 - INFO -     median: 0.1250
+2026-11-09 03:12:19,160 - INFO -     min: 0.0000
+2026-11-09 03:12:19,160 - INFO -     max: 0.2500
+2026-11-09 03:12:19,160 - INFO -     count: 2.0000
+2026-11-09 03:12:19,160 - INFO -   rouge2_f:
+2026-11-09 03:12:19,160 - INFO -     mean: 0.0000
+2026-11-09 03:12:19,160 - INFO -     std: 0.0000
+2026-11-09 03:12:19,160 - INFO -     median: 0.0000
+2026-11-09 03:12:19,160 - INFO -     min: 0.0000
+2026-11-09 03:12:19,160 - INFO -     max: 0.0000
+2026-11-09 03:12:19,160 - INFO -     count: 2.0000
+2026-11-09 03:12:19,160 - INFO -   rougeL_f:
+2026-11-09 03:12:19,160 - INFO -     mean: 0.1250
+2026-11-09 03:12:19,160 - INFO -     std: 0.1768
+2026-11-09 03:12:19,160 - INFO -     median: 0.1250
+2026-11-09 03:12:19,160 - INFO -     min: 0.0000
+2026-11-09 03:12:19,160 - INFO -     max: 0.2500
+2026-11-09 03:12:19,160 - INFO -     count: 2.0000
+2026-11-09 03:12:19,160 - INFO -   bleu1:
+2026-11-09 03:12:19,160 - INFO -     mean: 0.0338
+2026-11-09 03:12:19,160 - INFO -     std: 0.0478
+2026-11-09 03:12:19,160 - INFO -     median: 0.0338
+2026-11-09 03:12:19,160 - INFO -     min: 0.0000
+2026-11-09 03:12:19,160 - INFO -     max: 0.0677
+2026-11-09 03:12:19,160 - INFO -     count: 2.0000
+2026-11-09 03:12:19,160 - INFO -   bleu2:
+2026-11-09 03:12:19,160 - INFO -     mean: 0.0151
+2026-11-09 03:12:19,160 - INFO -     std: 0.0214
+2026-11-09 03:12:19,160 - INFO -     median: 0.0151
+2026-11-09 03:12:19,170 - INFO -     min: 0.0000
+2026-11-09 03:12:19,170 - INFO -     max: 0.0303
+2026-11-09 03:12:19,170 - INFO -     count: 2.0000
+2026-11-09 03:12:19,170 - INFO -   bleu3:
+2026-11-09 03:12:19,170 - INFO -     mean: 0.0118
+2026-11-09 03:12:19,170 - INFO -     std: 0.0167
+2026-11-09 03:12:19,170 - INFO -     median: 0.0118
+2026-11-09 03:12:19,170 - INFO -     min: 0.0000
+2026-11-09 03:12:19,172 - INFO -     max: 0.0236
+2026-11-09 03:12:19,172 - INFO -     count: 2.0000
+2026-11-09 03:12:19,172 - INFO -   bleu4:
+2026-11-09 03:12:19,172 - INFO -     mean: 0.0101
+2026-11-09 03:12:19,172 - INFO -     std: 0.0143
+2026-11-09 03:12:19,172 - INFO -     median: 0.0101
+2026-11-09 03:12:19,172 - INFO -     min: 0.0000
+2026-11-09 03:12:19,172 - INFO -     max: 0.0202
+2026-11-09 03:12:19,172 - INFO -     count: 2.0000
+2026-11-09 03:12:19,174 - INFO -   bert_precision:
+2026-11-09 03:12:19,174 - INFO -     mean: 0.8798
+2026-11-09 03:12:19,174 - INFO -     std: 0.0464
+2026-11-09 03:12:19,174 - INFO -     median: 0.8798
+2026-11-09 03:12:19,174 - INFO -     min: 0.8470
+2026-11-09 03:12:19,174 - INFO -     max: 0.9126
+2026-11-09 03:12:19,174 - INFO -     count: 2.0000
+2026-11-09 03:12:19,174 - INFO -   bert_recall:
+2026-11-09 03:12:19,174 - INFO -     mean: 0.8370
+2026-11-09 03:12:19,176 - INFO -     std: 0.0036
+2026-11-09 03:12:19,177 - INFO -     median: 0.8370
+2026-11-09 03:12:19,177 - INFO -     min: 0.8344
+2026-11-09 03:12:19,177 - INFO -     max: 0.8395
+2026-11-09 03:12:19,177 - INFO -     count: 2.0000
+2026-11-09 03:12:19,177 - INFO -   bert_f1:
+2026-11-09 03:12:19,177 - INFO -     mean: 0.8576
+2026-11-09 03:12:19,178 - INFO -     std: 0.0239
+2026-11-09 03:12:19,178 - INFO -     median: 0.8576
+2026-11-09 03:12:19,178 - INFO -     min: 0.8407
+2026-11-09 03:12:19,178 - INFO -     max: 0.8745
+2026-11-09 03:12:19,178 - INFO -     count: 2.0000
+2026-11-09 03:12:19,178 - INFO -   meteor:
+2026-11-09 03:12:19,178 - INFO -     mean: 0.0446
+2026-11-09 03:12:19,178 - INFO -     std: 0.0631
+2026-11-09 03:12:19,178 - INFO -     median: 0.0446
+2026-11-09 03:12:19,178 - INFO -     min: 0.0000
+2026-11-09 03:12:19,178 - INFO -     max: 0.0893
+2026-11-09 03:12:19,178 - INFO -     count: 2.0000
+2026-11-09 03:12:19,178 - INFO -   sbert_similarity:
+2026-11-09 03:12:19,178 - INFO -     mean: 0.3797
+2026-11-09 03:12:19,178 - INFO -     std: 0.2737
+2026-11-09 03:12:19,178 - INFO -     median: 0.3797
+2026-11-09 03:12:19,178 - INFO -     min: 0.1862
+2026-11-09 03:12:19,178 - INFO -     max: 0.5732
+2026-11-09 03:12:19,178 - INFO -     count: 2.0000
+2026-11-09 03:12:19,178 - INFO - Category 4:
+2026-11-09 03:12:19,178 - INFO -   exact_match:
+2026-11-09 03:12:19,178 - INFO -     mean: 0.1250
+2026-11-09 03:12:19,178 - INFO -     std: 0.3536
+2026-11-09 03:12:19,178 - INFO -     median: 0.0000
+2026-11-09 03:12:19,178 - INFO -     min: 0.0000
+2026-11-09 03:12:19,178 - INFO -     max: 1.0000
+2026-11-09 03:12:19,187 - INFO -     count: 8.0000
+2026-11-09 03:12:19,187 - INFO -   f1:
+2026-11-09 03:12:19,187 - INFO -     mean: 0.1597
+2026-11-09 03:12:19,187 - INFO -     std: 0.3464
+2026-11-09 03:12:19,187 - INFO -     median: 0.0000
+2026-11-09 03:12:19,189 - INFO -     min: 0.0000
+2026-11-09 03:12:19,189 - INFO -     max: 1.0000
+2026-11-09 03:12:19,189 - INFO -     count: 8.0000
+2026-11-09 03:12:19,189 - INFO -   rouge1_f:
+2026-11-09 03:12:19,189 - INFO -     mean: 0.1684
+2026-11-09 03:12:19,189 - INFO -     std: 0.3491
+2026-11-09 03:12:19,189 - INFO -     median: 0.0000
+2026-11-09 03:12:19,189 - INFO -     min: 0.0000
+2026-11-09 03:12:19,191 - INFO -     max: 1.0000
+2026-11-09 03:12:19,191 - INFO -     count: 8.0000
+2026-11-09 03:12:19,191 - INFO -   rouge2_f:
+2026-11-09 03:12:19,191 - INFO -     mean: 0.1250
+2026-11-09 03:12:19,191 - INFO -     std: 0.3536
+2026-11-09 03:12:19,191 - INFO -     median: 0.0000
+2026-11-09 03:12:19,191 - INFO -     min: 0.0000
+2026-11-09 03:12:19,191 - INFO -     max: 1.0000
+2026-11-09 03:12:19,193 - INFO -     count: 8.0000
+2026-11-09 03:12:19,193 - INFO -   rougeL_f:
+2026-11-09 03:12:19,193 - INFO -     mean: 0.1684
+2026-11-09 03:12:19,193 - INFO -     std: 0.3491
+2026-11-09 03:12:19,195 - INFO -     median: 0.0000
+2026-11-09 03:12:19,195 - INFO -     min: 0.0000
+2026-11-09 03:12:19,195 - INFO -     max: 1.0000
+2026-11-09 03:12:19,195 - INFO -     count: 8.0000
+2026-11-09 03:12:19,195 - INFO -   bleu1:
+2026-11-09 03:12:19,195 - INFO -     mean: 0.1337
+2026-11-09 03:12:19,195 - INFO -     std: 0.3504
+2026-11-09 03:12:19,195 - INFO -     median: 0.0000
+2026-11-09 03:12:19,195 - INFO -     min: 0.0000
+2026-11-09 03:12:19,195 - INFO -     max: 1.0000
+2026-11-09 03:12:19,195 - INFO -     count: 8.0000
+2026-11-09 03:12:19,195 - INFO -   bleu2:
+2026-11-09 03:12:19,195 - INFO -     mean: 0.1275
+2026-11-09 03:12:19,195 - INFO -     std: 0.3526
+2026-11-09 03:12:19,195 - INFO -     median: 0.0000
+2026-11-09 03:12:19,195 - INFO -     min: 0.0000
+2026-11-09 03:12:19,195 - INFO -     max: 1.0000
+2026-11-09 03:12:19,195 - INFO -     count: 8.0000
+2026-11-09 03:12:19,195 - INFO -   bleu3:
+2026-11-09 03:12:19,195 - INFO -     mean: 0.0603
+2026-11-09 03:12:19,195 - INFO -     std: 0.1647
+2026-11-09 03:12:19,195 - INFO -     median: 0.0000
+2026-11-09 03:12:19,195 - INFO -     min: 0.0000
+2026-11-09 03:12:19,195 - INFO -     max: 0.4677
+2026-11-09 03:12:19,195 - INFO -     count: 8.0000
+2026-11-09 03:12:19,195 - INFO -   bleu4:
+2026-11-09 03:12:19,203 - INFO -     mean: 0.0411
+2026-11-09 03:12:19,203 - INFO -     std: 0.1112
+2026-11-09 03:12:19,203 - INFO -     median: 0.0000
+2026-11-09 03:12:19,203 - INFO -     min: 0.0000
+2026-11-09 03:12:19,203 - INFO -     max: 0.3162
+2026-11-09 03:12:19,203 - INFO -     count: 8.0000
+2026-11-09 03:12:19,203 - INFO -   bert_precision:
+2026-11-09 03:12:19,203 - INFO -     mean: 0.8908
+2026-11-09 03:12:19,203 - INFO -     std: 0.0495
+2026-11-09 03:12:19,203 - INFO -     median: 0.8782
+2026-11-09 03:12:19,203 - INFO -     min: 0.8327
+2026-11-09 03:12:19,203 - INFO -     max: 1.0000
+2026-11-09 03:12:19,203 - INFO -     count: 8.0000
+2026-11-09 03:12:19,203 - INFO -   bert_recall:
+2026-11-09 03:12:19,203 - INFO -     mean: 0.8668
+2026-11-09 03:12:19,203 - INFO -     std: 0.0572
+2026-11-09 03:12:19,203 - INFO -     median: 0.8563
+2026-11-09 03:12:19,203 - INFO -     min: 0.8215
+2026-11-09 03:12:19,203 - INFO -     max: 1.0000
+2026-11-09 03:12:19,203 - INFO -     count: 8.0000
+2026-11-09 03:12:19,203 - INFO -   bert_f1:
+2026-11-09 03:12:19,203 - INFO -     mean: 0.8783
+2026-11-09 03:12:19,203 - INFO -     std: 0.0512
+2026-11-09 03:12:19,203 - INFO -     median: 0.8602
+2026-11-09 03:12:19,203 - INFO -     min: 0.8448
+2026-11-09 03:12:19,210 - INFO -     max: 1.0000
+2026-11-09 03:12:19,210 - INFO -     count: 8.0000
+2026-11-09 03:12:19,210 - INFO -   meteor:
+2026-11-09 03:12:19,210 - INFO -     mean: 0.1381
+2026-11-09 03:12:19,210 - INFO -     std: 0.3253
+2026-11-09 03:12:19,210 - INFO -     median: 0.0000
+2026-11-09 03:12:19,210 - INFO -     min: 0.0000
+2026-11-09 03:12:19,213 - INFO -     max: 0.9375
+2026-11-09 03:12:19,213 - INFO -     count: 8.0000
+2026-11-09 03:12:19,213 - INFO -   sbert_similarity:
+2026-11-09 03:12:19,213 - INFO -     mean: 0.2993
+2026-11-09 03:12:19,213 - INFO -     std: 0.3301
+2026-11-09 03:12:19,213 - INFO -     median: 0.1598
+2026-11-09 03:12:19,213 - INFO -     min: -0.0501
+2026-11-09 03:12:19,213 - INFO -     max: 1.0000
+2026-11-09 03:12:19,213 - INFO -     count: 8.0000
+2026-11-09 03:12:19,213 - INFO - Category 5:
+2026-11-09 03:12:19,213 - INFO -   exact_match:
+2026-11-09 03:12:19,213 - INFO -     mean: 0.6000
+2026-11-09 03:12:19,213 - INFO -     std: 0.5477
+2026-11-09 03:12:19,217 - INFO -     median: 1.0000
+2026-11-09 03:12:19,217 - INFO -     min: 0.0000
+2026-11-09 03:12:19,217 - INFO -     max: 1.0000
+2026-11-09 03:12:19,217 - INFO -     count: 5.0000
+2026-11-09 03:12:19,218 - INFO -   f1:
+2026-11-09 03:12:19,218 - INFO -     mean: 0.6000
+2026-11-09 03:12:19,219 - INFO -     std: 0.5477
+2026-11-09 03:12:19,219 - INFO -     median: 1.0000
+2026-11-09 03:12:19,219 - INFO -     min: 0.0000
+2026-11-09 03:12:19,220 - INFO -     max: 1.0000
+2026-11-09 03:12:19,220 - INFO -     count: 5.0000
+2026-11-09 03:12:19,220 - INFO -   rouge1_f:
+2026-11-09 03:12:19,220 - INFO -     mean: 0.6000
+2026-11-09 03:12:19,220 - INFO -     std: 0.5477
+2026-11-09 03:12:19,220 - INFO -     median: 1.0000
+2026-11-09 03:12:19,222 - INFO -     min: 0.0000
+2026-11-09 03:12:19,223 - INFO -     max: 1.0000
+2026-11-09 03:12:19,223 - INFO -     count: 5.0000
+2026-11-09 03:12:19,224 - INFO -   rouge2_f:
+2026-11-09 03:12:19,224 - INFO -     mean: 0.6000
+2026-11-09 03:12:19,225 - INFO -     std: 0.5477
+2026-11-09 03:12:19,225 - INFO -     median: 1.0000
+2026-11-09 03:12:19,225 - INFO -     min: 0.0000
+2026-11-09 03:12:19,225 - INFO -     max: 1.0000
+2026-11-09 03:12:19,225 - INFO -     count: 5.0000
+2026-11-09 03:12:19,225 - INFO -   rougeL_f:
+2026-11-09 03:12:19,225 - INFO -     mean: 0.6000
+2026-11-09 03:12:19,228 - INFO -     std: 0.5477
+2026-11-09 03:12:19,228 - INFO -     median: 1.0000
+2026-11-09 03:12:19,228 - INFO -     min: 0.0000
+2026-11-09 03:12:19,228 - INFO -     max: 1.0000
+2026-11-09 03:12:19,228 - INFO -     count: 5.0000
+2026-11-09 03:12:19,228 - INFO -   bleu1:
+2026-11-09 03:12:19,228 - INFO -     mean: 0.6000
+2026-11-09 03:12:19,228 - INFO -     std: 0.5477
+2026-11-09 03:12:19,228 - INFO -     median: 1.0000
+2026-11-09 03:12:19,228 - INFO -     min: 0.0000
+2026-11-09 03:12:19,228 - INFO -     max: 1.0000
+2026-11-09 03:12:19,228 - INFO -     count: 5.0000
+2026-11-09 03:12:19,228 - INFO -   bleu2:
+2026-11-09 03:12:19,228 - INFO -     mean: 0.6000
+2026-11-09 03:12:19,228 - INFO -     std: 0.5477
+2026-11-09 03:12:19,228 - INFO -     median: 1.0000
+2026-11-09 03:12:19,228 - INFO -     min: 0.0000
+2026-11-09 03:12:19,228 - INFO -     max: 1.0000
+2026-11-09 03:12:19,228 - INFO -     count: 5.0000
+2026-11-09 03:12:19,228 - INFO -   bleu3:
+2026-11-09 03:12:19,228 - INFO -     mean: 0.6000
+2026-11-09 03:12:19,236 - INFO -     std: 0.5477
+2026-11-09 03:12:19,236 - INFO -     median: 1.0000
+2026-11-09 03:12:19,236 - INFO -     min: 0.0000
+2026-11-09 03:12:19,236 - INFO -     max: 1.0000
+2026-11-09 03:12:19,236 - INFO -     count: 5.0000
+2026-11-09 03:12:19,236 - INFO -   bleu4:
+2026-11-09 03:12:19,236 - INFO -     mean: 0.6000
+2026-11-09 03:12:19,236 - INFO -     std: 0.5477
+2026-11-09 03:12:19,236 - INFO -     median: 1.0000
+2026-11-09 03:12:19,236 - INFO -     min: 0.0000
+2026-11-09 03:12:19,236 - INFO -     max: 1.0000
+2026-11-09 03:12:19,236 - INFO -     count: 5.0000
+2026-11-09 03:12:19,236 - INFO -   bert_precision:
+2026-11-09 03:12:19,236 - INFO -     mean: 0.9344
+2026-11-09 03:12:19,236 - INFO -     std: 0.0911
+2026-11-09 03:12:19,236 - INFO -     median: 1.0000
+2026-11-09 03:12:19,236 - INFO -     min: 0.8141
+2026-11-09 03:12:19,236 - INFO -     max: 1.0000
+2026-11-09 03:12:19,236 - INFO -     count: 5.0000
+2026-11-09 03:12:19,236 - INFO -   bert_recall:
+2026-11-09 03:12:19,236 - INFO -     mean: 0.9543
+2026-11-09 03:12:19,236 - INFO -     std: 0.0629
+2026-11-09 03:12:19,244 - INFO -     median: 1.0000
+2026-11-09 03:12:19,244 - INFO -     min: 0.8776
+2026-11-09 03:12:19,245 - INFO -     max: 1.0000
+2026-11-09 03:12:19,245 - INFO -     count: 5.0000
+2026-11-09 03:12:19,245 - INFO -   bert_f1:
+2026-11-09 03:12:19,245 - INFO -     mean: 0.9440
+2026-11-09 03:12:19,245 - INFO -     std: 0.0774
+2026-11-09 03:12:19,245 - INFO -     median: 1.0000
+2026-11-09 03:12:19,247 - INFO -     min: 0.8447
+2026-11-09 03:12:19,247 - INFO -     max: 1.0000
+2026-11-09 03:12:19,247 - INFO -     count: 5.0000
+2026-11-09 03:12:19,247 - INFO -   meteor:
+2026-11-09 03:12:19,247 - INFO -     mean: 0.5976
+2026-11-09 03:12:19,247 - INFO -     std: 0.5455
+2026-11-09 03:12:19,247 - INFO -     median: 0.9960
+2026-11-09 03:12:19,249 - INFO -     min: 0.0000
+2026-11-09 03:12:19,249 - INFO -     max: 0.9960
+2026-11-09 03:12:19,249 - INFO -     count: 5.0000
+2026-11-09 03:12:19,249 - INFO -   sbert_similarity:
+2026-11-09 03:12:19,249 - INFO -     mean: 0.6076
+2026-11-09 03:12:19,249 - INFO -     std: 0.5402
+2026-11-09 03:12:19,249 - INFO -     median: 1.0000
+2026-11-09 03:12:19,249 - INFO -     min: -0.0609
+2026-11-09 03:12:19,249 - INFO -     max: 1.0000
+2026-11-09 03:12:19,249 - INFO -     count: 5.0000
+2026-11-09 03:12:19,249 - INFO -   adversarial_correct:
+2026-11-09 03:12:19,249 - INFO -     mean: 0.6000
+2026-11-09 03:12:19,253 - INFO -     std: 0.5477
+2026-11-09 03:12:19,253 - INFO -     median: 1.0000
+2026-11-09 03:12:19,253 - INFO -     min: 0.0000
+2026-11-09 03:12:19,253 - INFO -     max: 1.0000
+2026-11-09 03:12:19,253 - INFO -     count: 5.0000

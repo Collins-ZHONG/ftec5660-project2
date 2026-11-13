@@ -1,0 +1,7 @@
+2026-11-09 21:34:06,631 - INFO - Loading dataset from C:\Users\Collins\Python\FTEC5660\ind_proj_2\ftec5660-project2\.\data\expanded_memory_67turns_fixed16\locomo_conv26_d2_d17_d18_fixed16.json
+2026-11-09 21:34:06,631 - INFO - Using ROBUST memory layer (no JSON schema dependency)
+2026-11-09 21:34:06,632 - INFO - Loaded 1 samples
+2026-11-09 21:35:52,007 - INFO - Loading cached memories for sample 0
+2026-11-09 21:35:52,025 - INFO - Found retriever cache files
+2026-11-09 21:35:52,061 - INFO - Successfully loaded 67 memories
+2026-11-09 21:35:52,062 - INFO - Processing sample 1/1

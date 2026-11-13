@@ -1,0 +1,11 @@
+.venv/
+.env
+data/expanded_memory_67turns_fixed16/README.md
+.\EXPERIMENT_STUDY_SUMMARY.md
+.\RESULTS_PRESENTATION.md
+.\add_run_table.py
+.\build_recording_script.py
+.\build_report.py
+.\data\expanded_memory_67turns_fixed16\results\?????.md
+.\experiment_archives\pilot_17turns\README.md
+.\fix_run_table.py
